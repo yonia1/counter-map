@@ -1,0 +1,27 @@
+{
+  "name": "counter-map",
+  "version": "1.0.0",
+  "description": "a basic map that keeps count of each item you enter and cleans up only when all counters have been deleted",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:covreage": "jest --coverage",
+    "test:watch:covreage": "jest --watch --coverage"
+  },
+  "keywords": [
+    "npm",
+    "map",
+    "hashmap",
+    "counter"
+  ],
+  "author": "Yoni Amishav amishav@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^23.3.5",
+    "@types/node": "^10.11.7",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.4",
+    "typescript": "^3.1.3"
+  }
+}
